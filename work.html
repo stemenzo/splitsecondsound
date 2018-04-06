@@ -5,18 +5,26 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
-    <title>Split Second Sound : 404 Error</title>
+    <title>Split Second Sound : Work</title>
     <!-- Font Awesome -->
     <link href="assets/css/font-awesome.css" rel="stylesheet">
     <!-- Bootstrap -->
     <link href="assets/css/bootstrap.css" rel="stylesheet">    
+    <!-- Slick slider -->
+    <link rel="stylesheet" type="text/css" href="assets/css/slick.css"/> 
     <!-- Animate css -->
     <link rel="stylesheet" type="text/css" href="assets/css/animate.css"/> 
     <!-- Theme color -->
     <link id="switcher" href="assets/css/default-theme.css" rel="stylesheet">
-    <!-- Main Style -->
+	<!-- Main Style -->
     <link href="style.css" rel="stylesheet">
-	<!-- Favicons -->
+    <!-- Fonts -->
+    <!-- Open Sans for body font -->
+    <link href='https://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css'>
+     <!-- rel=canonical link -->
+    <link rel="canonical" href="http://www.splitsecondsound.nl/work.html">
+    
+    <!-- Favicons -->
 	<link rel="apple-touch-icon" sizes="57x57" href="http://www.splitsecondsound.nl/apple-touch-icon-57x57.png?v=bOO6N04wNR">
 	<link rel="apple-touch-icon" sizes="60x60" href="http://www.splitsecondsound.nl/apple-touch-icon-60x60.png?v=bOO6N04wNR">
 	<link rel="apple-touch-icon" sizes="72x72" href="http://www.splitsecondsound.nl/apple-touch-icon-72x72.png?v=bOO6N04wNR">
@@ -39,12 +47,7 @@
 	<meta name="msapplication-TileColor" content="#603cba">
 	<meta name="msapplication-TileImage" content="http://www.splitsecondsound.nl/mstile-144x144.png?v=bOO6N04wNR">
 	<meta name="msapplication-config" content="http://www.splitsecondsound.nl/browserconfig.xml?v=bOO6N04wNR">
-	<meta name="theme-color" content="#ffffff"> 
-    <!-- Open Sans for body font -->
-    <link href='https://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css'>
-    <!-- rel=canonical link -->
-    <link rel="canonical" href="http://www.splitsecondsound.nl/404.html">
-        
+	<meta name="theme-color" content="#ffffff">   
     <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
     <!--[if lt IE 9]>
@@ -52,13 +55,26 @@
       <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
     <![endif]-->
   </head>
-  <body>
+  
+    <!-- Google Analytics Tracker -->
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
 
+  ga('create', 'UA-24118528-1', 'auto');
+  ga('send', 'pageview');
+
+</script>
+  
+  
+  <body>
   <!-- SCROLL TOP BUTTON -->
   <a class="scrollToTop" href="#"><i class="fa fa-angle-up"></i></a>
   <!-- END SCROLL TOP BUTTON -->
 
-  <!-- BEGIN MENU -->
+    <!-- BEGIN MENU -->
   <section id="menu-area">      
     <nav class="navbar navbar-default">  
       <div class="container">
@@ -70,55 +86,93 @@
             <span class="icon-bar"></span>
             <span class="icon-bar"></span>
           </button>
-           <!-- IMG BASED LOGO  -->
+          <!-- IMG BASED LOGO  -->
            <a class="navbar-brand" href="index.html"><img class="img-responsive" src="assets/images/logo.png" alt="split second sound logo"></a>
         </div>
         <div id="navbar" class="navbar-collapse collapse">
           <ul id="top-menu" class="nav navbar-nav navbar-right main-nav">
-            <li><a href="index.html">Home</a></li>
-            <li><a href="work.html">Work</a></li>
-            <li><a href="studio.html">Studio</a></li>
+            <li class="dropdown">
+              <a href="index.html" class="dropdown-toggle disabled" data-toggle="dropdown">Home <span class="fa fa-angle-down"></span></a>
+              <ul class="dropdown-menu">
+                <li class="page-scroll"><a href="index.html#feature">About SSS</a></li>                
+                <li class="page-scroll"><a href="index.html#team">Our Team</a></li>
+              </ul>
+            </li>
+            <li class="active"><a href="work.html">Work</a></li>
+            <li class="dropdown">
+              <a href="studio.html" class="dropdown-toggle disabled" data-toggle="dropdown">Studio <span class="fa fa-angle-down"></span></a>
+              <ul class="dropdown-menu">
+                <li class="page-scroll"><a href="studio.html#portfolio">Studio Pics</a></li>                
+                <li class="page-scroll"><a href="studio.html#gear-list">Gear List</a></li>
+              </ul>
+            </li>
             <li><a href="contact.html">Contact</a></li>
           </ul>                     
         </div><!--/.nav-collapse -->
       </div>     
     </nav>
   </section>
-  <!-- END MENU --> 
+  <!-- END MENU -->
   
- <!-- Start single page header -->
+  <!-- Start single page header -->
   <section id="single-page-header">
     <div class="overlay">
       <div class="container">
         <div class="row">
           <div class="col-md-6 col-sm-6 col-xs-12">
             <div class="single-page-header-left">
-              <h2>404 Error - Not Found</h2>
+              <h2>Our Work</h2>
+              <p>We've produced over a hundred albums and mixed for TV, Live shows and many artists. Check our Spotify playlist and videos below for an impression of our unique sound. If you'd like to hear specific examples of a certain style or band, just let us know. Enjoy!!<br><br></p>
             </div>
           </div>
+		
+          <div class="col-md-6 col-sm-6 col-xs-12">
+		    <div class="single-page-header-right">
+              <h3>Split Second Sound Spotify playlist</h3>
+          </div>
+              <div class="spotify-embeds">
+			  <iframe src="https://embed.spotify.com/?uri=spotify%3Auser%3Asplitsecondsound%3Aplaylist%3A0o2Ell5qQWbXeLBvjoe16z" width="300" height="300" frameborder="0" allowtransparency="true"></iframe>
+			  </div>
+          </div>
+		  </div>
         </div>
       </div>
-    </div>
   </section>
   <!-- End single page header -->
-  <!-- Start error section  -->
-  <section id="error">
+  
+  <!-- Start Feature -->
+  <section id="feature">
     <div class="container">
       <div class="row">
         <div class="col-md-12">
-          <div class="errror-page-area">
-            <span class="error-title"><i class="fa fa-exclamation-triangle"></i></span>
-            <div class="error-content">
-              <span>Oops!</span>
-              <p>We're sorry, but the page you were looking for doesn't exist.</p>
-              <a class="error-home" href="index.html">Go to Home Page</a>
+          <div class="title-area">
+            <h3 class="title">Split Second Sound Videos</h3>
             </div>
-          </div>
-        </div>
-      </div>
+		</div>
+	  </div>
+	<div class="row">
+	<div class="col-md-1"></div>
+		<div class="col-md-10">
+			<div id="player-container1" class="player-container">
+    <!-- THE YOUTUBE PLAYER -->
+    <div class="mlvp-container">
+        <div id="vid_frame1"></div>
     </div>
-  </section>
-  <!-- End error section  -->
+    <!-- LEFT AND RIGHT ARROWS -->
+    <div class="mlvp-arrows">
+        <div class="mlvp-arrow-left"><i class="demo-icon icon-left-open">&#xe800;</i></div>
+        <div class="mlvp-arrow-right"><i class="demo-icon icon-right-open">&#xe801;</i></div>
+    </div>
+    <!-- THE PLAYLIST -->
+    <div class="mlvp-list-container">
+        <div class="mlvp-list noselect" ></div>
+    </div>
+</div>
+		<div class="col-md-1"></div>
+		</div>
+	</div>
+	</div>
+	</section>
 
   <!-- Start footer -->
   <footer id="footer">
@@ -142,14 +196,37 @@
     </div>
   </footer>
   <!-- End footer -->
+  
+	<!-- MyList PLAYER SETTINGS -->
+<script type="text/javascript">
+	var playListID = ["PL3JBcTx1RlDukrZzYPUjH_mE-GVunMohN"]; // replace with your desired youtube playlist ID
+	var apiKey = "AIzaSyBMRyIdlgyAKIoKe9ptUZgejHZQB3RWumY"; // this default YouTube API key will work but you should change it to your own
+	var autoPlayNext = 1; // auto play next video in list when current ends? 0 for no. 1 for yes.
+	var showPlayerControls = 0; // display YouTube video player controls? 0 for no. 1 for yes.
+	var showVideoInfo = 1; // display video title on youtube player? 0 for no. 1 for yes.
+	var showRelatedVideos = 0; // display related videos after video ends? 0 for no. 1 for yes.
+	var showTitlesInList = 1; // display video titles under each thumbnail in playlist? 0 for no. 1 for yes.
+</script>
 
-  <!-- jQuery library -->
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>    
-  <!-- Include all compiled plugins (below), or include individual files as needed -->
-  <!-- Bootstrap -->
-  <script src="assets/js/bootstrap.js"></script>
-  <!-- Custom js -->
-  <script type="text/javascript" src="assets/js/custom.js"></script>
+    <!-- jQuery library -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>    
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <!-- Custom js -->
+    <script type="text/javascript" src="assets/js/custom.js"></script>
+    <!-- Touch devices js -->
+		<script type="text/javascript" src="assets/js/touch.js"></script>
+	<!-- Bootstrap -->
+    <script src="assets/js/bootstrap.js"></script>
+    <!-- Slick Slider -->
+    <script type="text/javascript" src="assets/js/slick.js"></script>    
+    <!-- mixit slider -->
+    <script type="text/javascript" src="assets/js/jquery.mixitup.js"></script>
+    <!-- Add fancyBox -->        
+    <script type="text/javascript" src="assets/js/jquery.fancybox.pack.js"></script>
+    <!-- Wow animation -->
+    <script type="text/javascript" src="assets/js/wow.js"></script> 
+	<!-- MyList Javascript -->
+	<script type="text/javascript" src="assets/js/mylist-player.js"></script>
     
   </body>
 </html>

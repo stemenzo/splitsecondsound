@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<browserconfig>
+  <msapplication>
+    <tile>
+      <square70x70logo src="http://www.splitsecondsound.nl/mstile-70x70.png?v=bOO6N04wNR"/>
+      <square150x150logo src="http://www.splitsecondsound.nl/mstile-150x150.png?v=bOO6N04wNR"/>
+      <square310x310logo src="http://www.splitsecondsound.nl/mstile-310x310.png?v=bOO6N04wNR"/>
+      <wide310x150logo src="http://www.splitsecondsound.nl/mstile-310x150.png?v=bOO6N04wNR"/>
+      <TileColor>#603cba</TileColor>
+    </tile>
+  </msapplication>
+</browserconfig>

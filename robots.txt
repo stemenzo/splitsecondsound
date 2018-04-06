@@ -1,0 +1,6 @@
+User-agent: * 
+Disallow: /fonts/
+Disallow: /_private/
+Disallow: /assets/
+Disallow: /.htacces/
+Disallow: /404.html/
