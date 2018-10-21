@@ -2,22 +2,22 @@
     font-family: 'depressionist';
     src: url('fonts/depressionist.eot');
     /* IE9 Compat Modes */
-    
+
     src: url('fonts/depressionist.eot?#iefix') format('embedded-opentype'),
     /* IE6-IE8 */
-    
+
     url('fonts/depressionist.woff2') format('woff2'),
     /* Super Modern Browsers */
-    
+
     url('fonts/depressionist.woff') format('woff'),
     /* Pretty Modern Browsers */
-    
+
     url('fonts/depressionist.ttf') format('truetype'),
     /* Safari, Android, iOS */
-    
+
     url('fonts/depressionist.svg#svgFontName') format('svg');
     /* Legacy iOS */
-    
+
     font-weight: bold;
 }
 .spotify-embeds {
@@ -387,27 +387,29 @@ img {
     display: inline;
     padding: 70px 0;
     width: 100%;
-	
 }
+
 .single-team-member {
     border: 1px solid #f5f5f5;
     display: inline;
     float: left;
-    margin-top: 65px;
 	margin-bottom: 30px;
-    padding: 50px;
-    padding-bottom: 30px;
+    padding: 25px 40px;
     position: relative;
     text-align: center;
     width: 100%;
+    height: 100%;
     -webkit-transition: all 0.5s;
     -o-transition: all 0.5s;
     transition: all 0.5s;
-}
-.single-team-member:hover {
+
+    /*border: 1px solid #5c5c5c;
     -webkit-box-shadow: 0 8px 6px -6px #000;
     -moz-box-shadow: 0 8px 6px -6px #000;
-    box-shadow: 0 8px 6px -6px #000;
+    box-shadow: 0 8px 6px -6px #000;*/
+}
+.single-team-member:hover {
+    border: 1px solid #f5f5f5;
 }
 .team-member-img {
     background-color: #ffffff;
@@ -505,9 +507,9 @@ img {
 /*--------------------*/
 /* MYLIST VIDEOPLAYER */
 /*--------------------*/
-/*  COLORS 
+/*  COLORS
 ############################### */
-/* color of titles that appear  below 
+/* color of titles that appear  below
 each thumbnail image in the playlist */
 
 .vid-item .desc {
@@ -517,7 +519,7 @@ each thumbnail image in the playlist */
 .vid-item:hover .desc {
     color: #630f21;
     /* <-- hover state color of titles */
-    
+
     -o-transition: .5s;
     -ms-transition: .5s;
     -moz-transition: .5s;
@@ -570,12 +572,12 @@ each thumbnail image in the playlist */
     width: 100%;
     height: 100%;
 }
-/*  VIDEOS PLAYLIST 
+/*  VIDEOS PLAYLIST
 ############################### */
 
 .mlvp-list-container {
     /*width: 90%;*/
-    
+
     overflow: hidden;
     margin-top: 16px;
     margin-left: 37px;
@@ -587,7 +589,7 @@ each thumbnail image in the playlist */
 }
 .mlvp-list {
     /*width: 3192px;*/
-    
+
     position: relative;
     top: 0;
     left: 0;
@@ -621,7 +623,7 @@ each thumbnail image in the playlist */
 }
 .vid-item:hover {
     /*background: #eee;*/
-    
+
     cursor: pointer;
 }
 .vid-item:hover .thumb img {
@@ -682,28 +684,28 @@ each thumbnail image in the playlist */
     text-decoration: inherit;
     /*width: 1em;*/
     /*margin-right: .2em;*/
-    
+
     text-align: center;
     /* opacity: .8; */
     /* For safety - reset parent styles, that can break glyph codes*/
-    
+
     font-variant: normal;
     text-transform: none;
     /* fix buttons height, for twitter bootstrap */
-    
+
     line-height: 1em;
     /* Animation center compensation - margins should be symmetric */
     /* remove if not needed */
     /*margin-left: .2em;*/
     /* You can be more comfortable with increased icons size */
-    
+
     font-size: 32px;
     /* Font smoothing. That was taken from TWBS */
-    
+
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
     /* Uncomment for 3D effect */
-    
+
     text-shadow: 1px 1px 1px rgba(127, 127, 127, 0.3);
 }
 /*--------------------*/
@@ -863,17 +865,17 @@ each thumbnail image in the playlist */
 
 .view-icon {
     color: #fff;
-  
+
 }
 
-.view-icon .fa { 
+.view-icon .fa {
  font-size: 30px;}
 
 .portfolio-title{
 	text-decoration: none;
     color: #fff;
 }
-	
+
 .portfolio-title:hover {
     text-decoration: none;
 	/* color: #630f21;*/
@@ -1310,7 +1312,7 @@ each thumbnail image in the playlist */
     .footer-right-address {
         text-align: center;
     }
-	
+
 	.gear-list{
     font-size: 12px;
     text-align: left;
